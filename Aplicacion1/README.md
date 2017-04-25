@@ -17,7 +17,16 @@ Donde aplicacion es el nombre de la carpeta que se va a crear
       * sails lift
       
    2. Docker
+      
+      1. dhuashd
+      2. dsadas
+      
+      
+   
+   
    3. Webstorm
+   
+      
    4. Postman
    5. Dbeaver
 
@@ -26,22 +35,8 @@ Donde aplicacion es el nombre de la carpeta que se va a crear
 
 
 
+### Mi primer link
+[Ir a google :v](http://sailsjs.org) 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a [Sails](http://sailsjs.org) application
+![Imagen de github](https://image.freepik.com/iconos-gratis/github-circulo_318-10752.jpghttps://image.freepik.com/iconos-gratis/github-circulo_318-10752.jpghttps://image.freepik.com/iconos-gratis/github-circulo_318-10752.jpg)
