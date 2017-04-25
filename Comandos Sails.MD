@@ -21,4 +21,4 @@
         >> sails lift
    
   Para utilizar este comando se debe estar en la carpeta donde se encuentra la Aplicacion.
-  Escoger la opcion por defect **2**.
+
