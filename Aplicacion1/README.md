@@ -30,7 +30,12 @@ Donde aplicacion es el nombre de la carpeta que se va a crear
    4. Postman
    5. Dbeaver
 
+#### Codigos
 
+    String hola ="HOla mundo"
+    >>sails lift
+   
+  
 
 
 
