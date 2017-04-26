@@ -22,3 +22,9 @@
    
   Para utilizar este comando se debe estar en la carpeta donde se encuentra la Aplicacion.
 
+
+## Comandos npm 
+
+        >> npm install
+
+  Instala las dependencias que esten listadas en el archivo package.json
