@@ -28,3 +28,9 @@
         >> npm install
 
   Instala las dependencias que esten listadas en el archivo package.json
+  
+  
+ ## sails generate api 
+ 
+ Crear modelo
+ 
