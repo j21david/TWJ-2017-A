@@ -60,6 +60,32 @@ hasAlgo(function () { console.log('Hola')
 })
 
 
+function transformarNumero(numero,transformacion){
+
+    transformacion(numero);
+
+
+}
+
+
+var r =transformarNumero(5, function (numero){
+    return numero*2
+})
+
+
+console.log(r)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
