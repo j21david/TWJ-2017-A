@@ -11,4 +11,16 @@ var hola= `
 
 
 `
-hola
+
+
+//FAT ARROW FUNCTIONS
+var holaMundo=function(){console.log("HOla Mundo")}
+holaMundo()
+
+var holaMundo2=()=>{return "Hola mundo2"}
+var holaMundo2=()=>"Hola mundo2"
+var holaMundo3=(nombre)=>`Hola: ${nombre}`
+holaMundo3(`Vera`)
+
+var holaMundo3=nombre=>`Hola: ${nombre}`
+holaMundo3(`Vera`)
