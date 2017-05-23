@@ -1,5 +1,64 @@
-<h1>
-  {{title}}
-  {{nombre}}
-  {{apellido}}
-</h1>
+<h1>Mi primer aplicacion en Angular</h1>
+
+
+<h2>Property Binding</h2>
+
+<h3>Primera forma con llaves dobles </h3>
+<p>{{parrafo}}</p>
+<h3>Segunda forma con []</h3>
+
+<p [style.color]="'green'"
+   [style.backgroung-color]="background"
+
+   [innerText]="parrafo"></p>
+
+<input type="text" [value]="parrafo">
+
+
+
+
+<p>Mantiene sincronizadas las variables
+  del componente en el html</p>
+
+
+
+<app-estilo></app-estilo>
+
+<app-estilo></app-estilo>
+<app-estilo></app-estilo>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+SI HACER ESTO
+<p>Gracias por visitarnos {{usuario.nobre}} {{usuario.apellido}}</p>
+
+NO HACER ESTO
+<h3>Desarrollado por
+
+  {{
+  saludar(usuario.nombre,usuario.apellido)}}
+
+</h3>
+
+NO HACER ESTO
+<h3>{{usuario.nombre +" " + usuario.apellido}}
+</h3>
+
+<!-- no usar : <a href="{{url}}"> -->
+<a [style.backgroung-color]="background"
+   [href]="url">
+  <img [src]="src" alt="Logo Angular">
+</a>
