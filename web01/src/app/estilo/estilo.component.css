@@ -2,7 +2,7 @@
 p{
   border: 10px;
   border-style: solid;
-  border-color: #6a98d6;
+  border-color: #0c8da0;
 
 }
 h1 {
@@ -13,5 +13,11 @@ h1 {
   border-color: green;
 }
 .rojo{
-  color: yellow;
+  color: darkblue;
+}
+p:hover{
+  border-color: white;
+  background: white;
+
+
 }
