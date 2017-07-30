@@ -1,0 +1,40 @@
+<p>
+  pokemon works!
+</p>
+
+
+
+
+
+<div class="container">
+<h2>Pokemons</h2>
+<br>
+
+<button class="btn btn-outline-success" (click)="cargarPokemons()">Cargar Pokemons</button>
+<br><br>
+
+
+<div class="row">
+  <div class="col-md-4"
+       *ngFor="let pokemon of pokemons;let i = index;">
+    <div class="card-block" style="background-image:linear-gradient(135deg,#271b38,#563d7c,#7952b3); color: white; border: solid;  ">
+
+      <div class="card-tittle">{{pokemon.name}}</div>
+
+      <input  class="form-control" placeholder="base_experience" [(ngModel)]="pokemons[i].base_experience" type="text" >
+      <input  class="form-control" placeholder="height" [(ngModel)]="pokemons[i].height" type="text" >
+      <input  class="form-control" placeholder="order" [(ngModel)]="pokemons[i].order" type="text" >
+      <input  class="form-control" placeholder="weight" [(ngModel)]="pokemons[i].weight" type="text" >
+      <p class="card-text"><strong>Base Experiencia: </strong> {{pokemon.base_experience}}</p>
+      <p class="card-text"><strong>Height: </strong> {{pokemon.height}}</p>
+      <p class="card-text"><strong>Order: </strong> {{pokemon.order}}</p>
+      <p class="card-text"><strong>Weight: </strong> {{pokemon.weight}}</p>
+      <img [src]="pokemon.imagenURL" width="100px" style="text-align: center" height="100px" alt="">
+
+
+    </div>
+
+  </div>
+</div>
+
+</div>

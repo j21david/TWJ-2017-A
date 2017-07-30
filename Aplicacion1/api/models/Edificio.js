@@ -9,7 +9,7 @@ module.exports = {
 
   attributes: {
 
-    connection: 'conexionPostgresqlServer',
+   // connection: 'conexionPostgresqlServer',
 
     nombre:{
 

@@ -46,6 +46,13 @@ export class AppComponent {
     return `Hola ${nombre} ${apellido}`;
   }
 
+  cambiarNombre():void{
+
+    console.log()
+
+  }
+
+
 }
 
 

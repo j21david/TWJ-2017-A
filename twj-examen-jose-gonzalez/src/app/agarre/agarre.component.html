@@ -1,0 +1,36 @@
+<div class="container">
+
+  <h1>Bienvenidos</h1>
+
+  <h2>Agarre</h2>
+
+  <div class="row">
+
+    <div class="col-sm-6">
+
+      <div class="form-group">
+        <h2>Ingrese Nuevo Agarre</h2>
+
+        <input  class="form-control" placeholder="Ingrese Nombre " [(ngModel)]="nuevoAgarre.Nombre" type="text" >
+
+        <input  class="form-control" placeholder="Ingrese Veces " [(ngModel)]="nuevoAgarre.Veces" type="text" >
+
+        <input  class="form-control" placeholder="Ingrese DineroGastado " [(ngModel)]="nuevoAgarre.DineroGastado" type="text" >
+      </div>
+
+
+      <button class="btn btn-success" (click)="crearAgarre()"  >Crear Agarre</button>
+      <br><br>
+      <div class="row">
+        <div class="col-md-4" style="background: lightgray; border: solid" *ngFor="let agarre of agarres;let indice = index;">
+          <h3>Nombre: {{agarre.Nombre}}</h3>
+          <h3>Veces: {{agarre.Veces}}</h3>
+          <h3>Dinero Gastado {{agarre.DineroGastado}}</h3>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>

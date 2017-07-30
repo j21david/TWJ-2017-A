@@ -1,3 +1,5 @@
+
+<!--
 <h1>Mi primer aplicacion en Angular</h1>
 
 
@@ -58,7 +60,23 @@ NO HACER ESTO
 </h3>
 
 <!-- no usar : <a href="{{url}}"> -->
+
+
+<!--
 <a [style.backgroung-color]="background"
    [href]="url">
   <img [src]="src" alt="Logo Angular">
 </a>
+-->
+
+
+<div class="container">
+
+
+  <input type="text" [value]="nombre" >
+
+  {{nombre}}
+<button class="btn btn-primary" (click)=" cambiarnombre()"></button>
+
+
+</div>
